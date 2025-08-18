@@ -1,5 +1,9 @@
 # ChangeLog
 
+## 1.6.2 (2025-08-18)
+
+- 优化：Github 开源相关调整
+
 ## 1.6.1 (2025-08-05)
 
 - 优化：`app_desc.yaml` 文件中优先使用 `procCommand` 字段
