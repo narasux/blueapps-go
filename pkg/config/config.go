@@ -26,7 +26,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
 
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var G *Config

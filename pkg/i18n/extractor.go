@@ -37,7 +37,7 @@ import (
 	"github.com/samber/lo"
 	"gopkg.in/yaml.v3"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
 )
 
 // 匹配 Golang 模板中使用 i18n 的正则表达式

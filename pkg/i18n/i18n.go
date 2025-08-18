@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
 )
 
 // GetLangFromCookie 从 Cookie 中获取语言版本

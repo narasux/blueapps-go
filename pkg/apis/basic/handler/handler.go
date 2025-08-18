@@ -26,13 +26,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/basic/serializer"
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/common/probe"
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
-	"bk.tencent.com/blueapps-go/pkg/version"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/basic/serializer"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common/probe"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/version"
 )
 
 // Ping ...

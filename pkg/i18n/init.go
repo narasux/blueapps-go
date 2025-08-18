@@ -26,7 +26,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
 )
 
 var initOnce sync.Once

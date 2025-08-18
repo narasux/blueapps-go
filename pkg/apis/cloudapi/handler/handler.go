@@ -24,9 +24,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/cloudapi/serializer"
-	"bk.tencent.com/blueapps-go/pkg/infras/cloudapi/cmsi"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/cloudapi/serializer"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/cloudapi/cmsi"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // SendEmail ...

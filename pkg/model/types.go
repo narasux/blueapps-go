@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	"gorm.io/gorm/schema"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/utils/crypto"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/crypto"
 )
 
 // AESEncryptString 为 Gorm 自定义字段类型，用 AES-GCM 算法加密

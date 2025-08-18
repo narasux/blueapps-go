@@ -27,7 +27,7 @@ import (
 	"github.com/TencentBlueKing/bk-apigateway-sdks/core/bkapi"
 	"github.com/TencentBlueKing/bk-apigateway-sdks/core/define"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
 )
 
 // ApiClient 蓝鲸 CMSI 组件 API Client

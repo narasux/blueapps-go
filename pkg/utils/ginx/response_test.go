@@ -27,7 +27,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 func TestSetSuccessResponse(t *testing.T) {

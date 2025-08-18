@@ -25,10 +25,10 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/account"
-	"bk.tencent.com/blueapps-go/pkg/common"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/account"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // UserAuth 进行用户身份认证，并将用户信息注入到 context 中

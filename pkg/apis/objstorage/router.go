@@ -22,7 +22,7 @@ package objstorage
 import (
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/objstorage/handler"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/objstorage/handler"
 )
 
 // Register ...

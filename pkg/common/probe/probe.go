@@ -25,10 +25,10 @@ import (
 
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/infras/objstorage"
-	"bk.tencent.com/blueapps-go/pkg/infras/redis"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/objstorage"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/redis"
 )
 
 // GinProbe Gin 服务探针

@@ -28,11 +28,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/infras/otel"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/router"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/otel"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/router"
 )
 
 // NewWebServerCmd ...

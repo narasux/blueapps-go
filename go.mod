@@ -1,5 +1,5 @@
-// +heroku install bk.tencent.com/blueapps-go
-module bk.tencent.com/blueapps-go
+// +heroku install github.com/TencentBlueKing/blueapps-go
+module github.com/TencentBlueKing/blueapps-go
 
 go 1.22
 

@@ -22,7 +22,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
 )
 
 // StubType 测试用 AuthBackend 类型

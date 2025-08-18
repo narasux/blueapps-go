@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 func TestGetRequestID(t *testing.T) {

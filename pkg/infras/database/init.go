@@ -39,9 +39,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/plugin/opentelemetry/tracing"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/config"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/version"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/version"
 )
 
 var versionCmd = &cobra.Command{

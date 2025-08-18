@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var rootCmd = &cobra.Command{

@@ -22,8 +22,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"bk.tencent.com/blueapps-go/pkg/async"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/async"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 // TaskListResponse List Task API 返回结构

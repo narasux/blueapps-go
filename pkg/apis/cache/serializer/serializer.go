@@ -25,8 +25,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 // CacheRequest Cache API 请求结构

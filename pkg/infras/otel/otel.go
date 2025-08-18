@@ -36,8 +36,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // 采样比例

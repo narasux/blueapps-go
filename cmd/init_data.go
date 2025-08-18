@@ -24,11 +24,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/model"
-	"bk.tencent.com/blueapps-go/pkg/version"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/version"
 )
 
 // NewInitDataCmd ...

@@ -21,7 +21,7 @@ package main
 import (
 	_ "go.uber.org/automaxprocs"
 
-	"bk.tencent.com/blueapps-go/cmd"
+	"github.com/TencentBlueKing/blueapps-go/cmd"
 )
 
 // swagger api doc

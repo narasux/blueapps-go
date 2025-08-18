@@ -27,10 +27,10 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	"github.com/spf13/cast"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/objstorage/serializer"
-	"bk.tencent.com/blueapps-go/pkg/infras/objstorage"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/objstorage/serializer"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/objstorage"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // CreateDir ...

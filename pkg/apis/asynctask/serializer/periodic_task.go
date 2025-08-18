@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/robfig/cron/v3"
 
-	"bk.tencent.com/blueapps-go/pkg/async"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/async"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 // PeriodicTaskListResponse List PeriodicTask API 返回结构

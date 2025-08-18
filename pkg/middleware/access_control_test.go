@@ -26,8 +26,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/middleware"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/middleware"
 )
 
 func TestAccessControl(t *testing.T) {

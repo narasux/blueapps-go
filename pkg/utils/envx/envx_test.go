@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/utils/envx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/envx"
 )
 
 // 不存在的环境变量

@@ -25,7 +25,7 @@ import (
 
 	"github.com/coocood/freecache"
 
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/utils/crypto"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/crypto"
 )
 
 func TestEncryptDecrypt(t *testing.T) {

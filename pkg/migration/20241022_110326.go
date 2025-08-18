@@ -23,8 +23,8 @@ import (
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/gorm"
 
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
 )
 
 func init() {

@@ -20,8 +20,8 @@
 package serializer
 
 import (
-	"bk.tencent.com/blueapps-go/pkg/common/probe"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common/probe"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 // HealthzResponse ...

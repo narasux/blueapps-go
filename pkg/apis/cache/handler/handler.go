@@ -28,11 +28,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/cache/serializer"
-	"bk.tencent.com/blueapps-go/pkg/cache/memory"
-	"bk.tencent.com/blueapps-go/pkg/cache/redis"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/cache/serializer"
+	"github.com/TencentBlueKing/blueapps-go/pkg/cache/memory"
+	"github.com/TencentBlueKing/blueapps-go/pkg/cache/redis"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // CacheQuery ...

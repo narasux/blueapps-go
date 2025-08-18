@@ -31,9 +31,9 @@ import (
 	"go.opentelemetry.io/otel"
 	"gorm.io/gorm"
 
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	"bk.tencent.com/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
 )
 
 var srv *TaskScheduler

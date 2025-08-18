@@ -343,7 +343,7 @@ export ALLOWED_USERS="admin,userAlpha"
 开发框架默认提供基础的日志功能，开发者可以使用 `pkg/logging/shim.go` 中提供的方法来打印日志，参考示例如下：
 
 ```go
-import log "bk.tencent.com/blueapps-go/pkg/logging"
+import log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 
 func main() {
 	// 注：ctx 应该从程序入口一路传递下来（如 cmd 函数中的 context.Background()）
@@ -535,8 +535,8 @@ import (
 
   "github.com/go-resty/resty/v2"
 
-  otelresty "bk.tencent.com/blueapps-go/pkg/infras/otel/otel-resty"
-  slogresty "bk.tencent.com/blueapps-go/pkg/logging/slog-resty"
+  otelresty "github.com/TencentBlueKing/blueapps-go/pkg/infras/otel/otel-resty"
+  slogresty "github.com/TencentBlueKing/blueapps-go/pkg/logging/slog-resty"
 )
 
 func main() {
@@ -599,7 +599,7 @@ python -c "import base64, os; print(base64.b64encode(os.urandom(32)).decode('utf
 
 Swagger 是一种 API 协议描述的规范，被广泛用于描述 API 接口的定义；在前后端联调时，swagger 文档可以帮助前端同事更好地了解 API 接口的定义，减轻后端同事编写文档 & 沟通的成本。
 
-除此之外，目前蓝鲸 API 网关还支持通过 swagger 文档来 [管理](https://bk.tencent.com/docs/markdown/ZH/APIGateway/1.10/UserGuide/apigateway/reference/swagger.md) 你的应用网关，支持网关资源的导入、导出等操作。
+除此之外，目前蓝鲸 API 网关还支持通过 swagger 文档来 [管理](https://github.com/TencentBlueKing/docs/markdown/ZH/APIGateway/1.10/UserGuide/apigateway/reference/swagger.md) 你的应用网关，支持网关资源的导入、导出等操作。
 
 目前开发框架使用 [swag](https://github.com/swaggo/swag) 来支持从代码注释自动生成 Swagger 文档（`docs/swagger.json`），参考示例如下：
 
@@ -667,7 +667,7 @@ Golang 开发框架通过 `I18n` 中间件将语言信息注入到两种 Context
 import (
 	"github.com/pkg/errors"
 
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 func main() {

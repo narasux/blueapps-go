@@ -25,7 +25,7 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	"bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // Logger 用于实现 resty.Logger
