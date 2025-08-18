@@ -24,7 +24,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // AccessControl 用户访问控制（重要：应该在 UserAuth 中间件后使用）

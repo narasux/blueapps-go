@@ -29,7 +29,7 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
 )
 
 // Debugf 打印 debug 日志

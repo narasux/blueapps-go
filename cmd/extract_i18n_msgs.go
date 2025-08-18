@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // NewExtractI18nMsgsCmd ...

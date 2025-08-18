@@ -30,11 +30,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/account"
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/middleware"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/account"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/middleware"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 func TestUserAuth(t *testing.T) {

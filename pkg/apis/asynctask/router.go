@@ -22,7 +22,7 @@ package asynctask
 import (
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/asynctask/handler"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/asynctask/handler"
 )
 
 // Register ...

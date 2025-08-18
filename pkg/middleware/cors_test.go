@@ -26,7 +26,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/middleware"
+	"github.com/TencentBlueKing/blueapps-go/pkg/middleware"
 )
 
 func TestCORS(t *testing.T) {

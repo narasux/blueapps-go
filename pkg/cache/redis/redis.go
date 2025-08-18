@@ -26,7 +26,7 @@ import (
 
 	"github.com/go-redis/cache/v9"
 
-	"bk.tencent.com/blueapps-go/pkg/infras/redis"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/redis"
 )
 
 // Redis 缓存的 key 前缀

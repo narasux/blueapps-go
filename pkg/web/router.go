@@ -21,7 +21,7 @@ package web
 import (
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/web/handler"
+	"github.com/TencentBlueKing/blueapps-go/pkg/web/handler"
 )
 
 // Register ...

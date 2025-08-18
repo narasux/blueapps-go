@@ -33,8 +33,8 @@ import (
 	"github.com/redis/go-redis/extra/redisotel/v9"
 	"github.com/redis/go-redis/v9"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var (

@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"time"
 
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
 )
 
 // Fibonacci 斐波那契数的递归实现，因为性能很差所以适合模拟需要长时间运行的后台任务

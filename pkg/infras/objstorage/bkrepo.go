@@ -29,7 +29,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
 )
 
 const (

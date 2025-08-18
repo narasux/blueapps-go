@@ -25,9 +25,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/infras/objstorage"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/objstorage"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // GetIndexPage 首页

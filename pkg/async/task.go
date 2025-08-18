@@ -25,8 +25,8 @@ import (
 	"context"
 	"reflect"
 
-	"bk.tencent.com/blueapps-go/pkg/async/task"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/async/task"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // RegisteredTasks 已注册的任务

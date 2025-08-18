@@ -23,9 +23,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // I18n 国际化中间件

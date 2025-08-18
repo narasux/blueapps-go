@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/middleware"
-	testingutil "bk.tencent.com/blueapps-go/pkg/utils/testing"
+	"github.com/TencentBlueKing/blueapps-go/pkg/middleware"
+	testingutil "github.com/TencentBlueKing/blueapps-go/pkg/utils/testing"
 )
 
 func TestQueryTokenAuthRight(t *testing.T) {

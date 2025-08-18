@@ -28,10 +28,10 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	otelresty "bk.tencent.com/blueapps-go/pkg/infras/otel/otel-resty"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
-	slogresty "bk.tencent.com/blueapps-go/pkg/logging/slog-resty"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	otelresty "github.com/TencentBlueKing/blueapps-go/pkg/infras/otel/otel-resty"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	slogresty "github.com/TencentBlueKing/blueapps-go/pkg/logging/slog-resty"
 )
 
 // NewClient 获取对象存储客户端

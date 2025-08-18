@@ -22,7 +22,7 @@ package migration
 import (
 	"context"
 
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // Migration 共享 Context

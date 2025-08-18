@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bk.tencent.com/blueapps-go/pkg/utils/uuidx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/uuidx"
 )
 
 func TestNew(t *testing.T) {

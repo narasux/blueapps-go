@@ -26,11 +26,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/cache/memory"
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/infras/redis"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/cache/memory"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/redis"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 func initLogger(cfg *config.LogConfig) error {

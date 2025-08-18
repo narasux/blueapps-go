@@ -28,9 +28,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 var migrationTmpl = `
@@ -41,7 +41,7 @@ import (
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/gorm"
 
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
 )
 
 

@@ -26,8 +26,8 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	log "bk.tencent.com/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 )
 
 // NewViewConfigCmd ...

@@ -23,9 +23,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"bk.tencent.com/blueapps-go/pkg/common"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
-	"bk.tencent.com/blueapps-go/pkg/utils/uuidx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/common"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/uuidx"
 )
 
 // RequestID 中间件用于注入 RequestID

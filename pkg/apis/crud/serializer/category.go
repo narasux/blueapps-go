@@ -24,9 +24,9 @@ import (
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
 
-	"bk.tencent.com/blueapps-go/pkg/i18n"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
 )
 
 // CategoryListRequest List Categories API 输入结构

@@ -343,7 +343,7 @@ export ALLOWED_USERS="admin,userAlpha"
 开发框架默认提供基础的日志功能，开发者可以使用 `pkg/logging/shim.go` 中提供的方法来打印日志，参考示例如下：
 
 ```go
-import log "bk.tencent.com/blueapps-go/pkg/logging"
+import log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
 
 func main() {
 	// 注：ctx 应该从程序入口一路传递下来（如 cmd 函数中的 context.Background()）
@@ -535,8 +535,8 @@ import (
 
   "github.com/go-resty/resty/v2"
 
-  otelresty "bk.tencent.com/blueapps-go/pkg/infras/otel/otel-resty"
-  slogresty "bk.tencent.com/blueapps-go/pkg/logging/slog-resty"
+  otelresty "github.com/TencentBlueKing/blueapps-go/pkg/infras/otel/otel-resty"
+  slogresty "github.com/TencentBlueKing/blueapps-go/pkg/logging/slog-resty"
 )
 
 func main() {
@@ -667,7 +667,7 @@ Golang 开发框架通过 `I18n` 中间件将语言信息注入到两种 Context
 import (
 	"github.com/pkg/errors"
 
-	"bk.tencent.com/blueapps-go/pkg/i18n"
+	"github.com/TencentBlueKing/blueapps-go/pkg/i18n"
 )
 
 func main() {

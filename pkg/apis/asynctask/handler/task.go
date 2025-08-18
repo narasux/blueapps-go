@@ -26,11 +26,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"
 
-	"bk.tencent.com/blueapps-go/pkg/apis/asynctask/serializer"
-	"bk.tencent.com/blueapps-go/pkg/async"
-	"bk.tencent.com/blueapps-go/pkg/infras/database"
-	"bk.tencent.com/blueapps-go/pkg/model"
-	"bk.tencent.com/blueapps-go/pkg/utils/ginx"
+	"github.com/TencentBlueKing/blueapps-go/pkg/apis/asynctask/serializer"
+	"github.com/TencentBlueKing/blueapps-go/pkg/async"
+	"github.com/TencentBlueKing/blueapps-go/pkg/infras/database"
+	"github.com/TencentBlueKing/blueapps-go/pkg/model"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/ginx"
 )
 
 // ListTasks ...

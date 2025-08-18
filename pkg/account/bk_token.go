@@ -28,8 +28,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 
-	"bk.tencent.com/blueapps-go/pkg/config"
-	slogresty "bk.tencent.com/blueapps-go/pkg/logging/slog-resty"
+	"github.com/TencentBlueKing/blueapps-go/pkg/config"
+	slogresty "github.com/TencentBlueKing/blueapps-go/pkg/logging/slog-resty"
 )
 
 // BkTokenAuthBackend 用于社区开源版本的用户登录 & 信息获取
