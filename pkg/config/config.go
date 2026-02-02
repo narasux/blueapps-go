@@ -48,7 +48,7 @@ func Load(ctx context.Context, cfgFile string) (*Config, error) {
 
 	if err != nil {
 		cfgFrom := lo.Ternary(cfgFile != "", "file: "+cfgFile, "env vars")
-		return nil, errors.Wrapf(err, "load config from "+cfgFrom)
+		return nil, errors.Wrapf(err, "load config from %s", cfgFrom)
 	}
 
 	// 后置校验
