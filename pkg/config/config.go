@@ -27,6 +27,7 @@ import (
 	"github.com/samber/lo"
 
 	log "github.com/TencentBlueKing/blueapps-go/pkg/logging"
+	"github.com/TencentBlueKing/blueapps-go/pkg/utils/envx"
 )
 
 var G *Config
@@ -35,6 +36,9 @@ var G *Config
 func Load(ctx context.Context, cfgFile string) (*Config, error) {
 	var cfg *Config
 	var err error
+	if err = envx.DecryptEncryptedEnvironment(); err != nil {
+		return nil, errors.Wrap(err, "decrypt PaaS encrypted environment variables")
+	}
 
 	if cfgFile != "" {
 		// 若已经指定配置文件，则从配置文件中加载
